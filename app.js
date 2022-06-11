@@ -2,6 +2,7 @@ class Node{
     constructor(data){
         this.data = data;
         this.next = null;
+        this.size = this.next+ this.data
     }
 }
 class LinkedList{
